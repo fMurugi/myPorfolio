@@ -15,7 +15,7 @@ function Skills() {
 
     client.fetch(query)
       .then((data) =>{setSkills(data);
-        console.log(data);
+      
       })
       
   },[]);

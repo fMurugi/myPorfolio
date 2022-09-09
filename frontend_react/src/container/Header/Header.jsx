@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className='header__caontainer'>
       <head>
-        <script src="https://kit.fontawesome.com/2a6829c07a.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2a6829c07a.js" crossOrigin="anonymous"></script>
       </head>
       <div className='desc__header'> 
         <h1>Hi  I am Fiona Murugi</h1>

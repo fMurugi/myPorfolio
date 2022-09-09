@@ -14,7 +14,7 @@ function Navbar() {
         <div>
         <ul className='app__navbar-links'>
             {['home','about','work','skills','contact'].map((item)=>(
-                <li classname='app__flex p-text' key ={`${item}`}>
+                <li className='app__flex p-text' key ={`${item}`}>
                     <a href ={`#${item}`}>{item}</a>
                 </li>
             ))}
@@ -27,14 +27,14 @@ function Navbar() {
 
             {toggle && (
                 <div
-                    whileInView={{ x: [300, 0] }}
-                    transition={{ duration: 0.85, ease: 'easeOut' }}
+                    // whileInView={{ x: [300, 0] }}
+                    // transition={{ duration: 0.85, ease: 'easeOut' }}
                 >
-                    <HiX onclick={()=>setToggle(false)}/>
+                    <HiX onClick={()=>setToggle(false)}/>
                     <ul>
                         {['home','about','work','skills','contact'].map((item)=>(
                             <li key ={item}>
-                                <a href ={`#${item}`}  onclick={()=>setToggle(false)}>{item}</a>
+                                <a href ={`#${item}`}  onClick={()=>setToggle(false)}>{item}</a>
                             </li>
                         ))}
                         
