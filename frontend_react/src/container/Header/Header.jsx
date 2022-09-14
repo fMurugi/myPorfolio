@@ -16,7 +16,7 @@ const Header = () => {
         <script src="https://kit.fontawesome.com/2a6829c07a.js" crossOrigin="anonymous"></script>
       </head>
       <div className='desc__header'> 
-        <h1>Hi  I am Fiona Murugi</h1>
+        <h1>Hi  My name Fiona Murugi</h1>
         <p>I am  fullStack developer</p>
         <div className='icon__div'>
           {/* <button >

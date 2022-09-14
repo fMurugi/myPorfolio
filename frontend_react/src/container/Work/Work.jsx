@@ -17,14 +17,13 @@ const Work = () => {
   },[]);
   return (<div className='work__container'>
       {projects.map((project) => 
-      (<div >
+      (<div className='project' >
           <img src={urlFor(project.imgUrl)} alt=""/>
            <p>
-             {project.Tittle}<br/>
-             {project.Description}<br/>
-            
+            <h2>{project.title}</h2>
+             {project.description}<br/>
            </p>
-           <div>
+           <div className='external__buttons'>
              <a href={project.projectLink}  target="_blank" rel="noreferrer">
              <button type='button'>View the project</button>
              </a>
