@@ -15,7 +15,13 @@ const Work = () => {
         console.log(data);
       } )
   },[]);
-  return (<div className='work__container'>
+  return (
+<div className='app__work'>
+  <h1 className='app__works-title'>MY PROJECTS</h1>
+  {/* <ul>
+    <li>{}</li>
+  </ul> */}
+<div className='work__container'>
       {projects.map((project) => 
       (<div className='project' >
           <img src={urlFor(project.imgUrl)} alt=""/>
@@ -34,6 +40,10 @@ const Work = () => {
        </div>
         ))}
   </div>  
+
+</div>
+   
+  
   );
 };
 export default Work;

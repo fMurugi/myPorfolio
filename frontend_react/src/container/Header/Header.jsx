@@ -17,7 +17,10 @@ const Header = () => {
       </head>
       <div className='desc__header'> 
         <h1>Hi  My name Fiona Murugi</h1>
-        <p>I am  fullStack developer</p>
+        <p>I am  fullStack developer based in Nairobi,Kenya.<br/>
+          I am an open source enthusiast.
+        </p>
+
         <div className='icon__div'>
           {/* <button >
           <FontAwesomeIcon icon={faGithub} />
