@@ -3,16 +3,16 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    // "plugin:react/recommended",
-    "prettier"
-    ],
+  // extends: [
+  //   // "plugin:react/recommended",
+  //   "prettier"
+  //   ],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "prettier"],
+  // plugins: ["react", "prettier"],
   rules: {
     "prettier/prettier": ["warn"],
     "import/prefer-default-export": 0,
