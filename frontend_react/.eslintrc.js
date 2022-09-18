@@ -13,16 +13,16 @@ module.exports = {
     sourceType: "module",
   },
   // plugins: ["react", "prettier"],
-  rules: {
-    "prettier/prettier": ["warn"],
-    "import/prefer-default-export": 0,
-    "react/function-component-definition": [
-      0,
-      {
-        namedComponents: "arrow-function",
-        unnamedComponents: "arrow-function",
-      },
-    ],
+  // rules: {
+  //   "prettier/prettier": ["warn"],
+  //   "import/prefer-default-export": 0,
+  //   "react/function-component-definition": [
+  //     0,
+  //     {
+  //       namedComponents: "arrow-function",
+  //       unnamedComponents: "arrow-function",
+  //     },
+  //   ],
     
-  },
+  // },
 };
