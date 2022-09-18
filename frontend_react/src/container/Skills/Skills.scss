@@ -12,6 +12,9 @@
     position: relative;
     z-index:2;
 
+    @media screen and (max-width:480px) {
+        width: 90%;
+    }
 
 }
 .skills__list{
@@ -28,18 +31,36 @@
 
         
         li{padding:30px;
+            @media screen and (max-width:480px) {
+                padding: 15px;
+            }
           
         }
+    }
+    @media screen and (max-width:480px) {
+        width: 90%;
     }
 
 }
 .list__container{
-   width: 100px;
-   height: 100px;
+   width: 105px;
+   height: 105px;
+   border-radius: 50%;
     background-color: rgb(66, 64, 64);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width:480px) {
+        width: 65px;
+        height: 65px;
+        font-size: 14px;
+        border-radius: 25%;
+    }
+    .img{
+        @media screen and (max-width:480px) {
+           size: 4px;
+        } 
+    }
 
 }

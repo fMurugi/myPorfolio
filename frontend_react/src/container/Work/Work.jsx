@@ -31,10 +31,10 @@ const Work = () => {
            </p>
            <div className='external__buttons'>
              <a href={project.projectLink}  target="_blank" rel="noreferrer">
-             <button type='button'>View the project</button>
+             <button className='Goto__button' type='button'>View the project</button>
              </a>
              <a href={project.codeLink}>
-             <button type ='button'>View the code</button>
+             <button className='Goto__button' type ='button'>View the code</button>
              </a>
            </div>
        </div>
